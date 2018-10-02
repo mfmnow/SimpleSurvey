@@ -1,0 +1,13 @@
+.question-width{
+  width:100%;
+}
+.question-margins {
+  margin: 0px;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+@media (min-width: 992px) {
+  .question-margins {
+    margin: 30px;
+  }
+}

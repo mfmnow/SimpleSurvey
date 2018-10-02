@@ -1,0 +1,3 @@
+<p *ngIf="!Survey"><em>Loading...</em></p>
+<h1 *ngIf="Survey">{{Survey.name}}</h1>
+<app-question *ngIf="Survey" [Questions]="Survey.questions"></app-question>

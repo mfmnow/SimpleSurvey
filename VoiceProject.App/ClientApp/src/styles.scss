@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  padding-top: 74px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 90px;
+  }
+
+  .wool-logo {
+    width: 150px;
+    height: 45px;
+  }
+
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  .desktop-padding {
+    padding: 15px;
+  }
+}
+
+.padding-top-10 {
+  padding-top: 10px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.tab-content {
+  min-height: 200px;
+  padding: 20px;
+}

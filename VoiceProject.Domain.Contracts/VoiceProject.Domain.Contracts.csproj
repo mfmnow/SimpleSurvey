@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VoiceProject.Data.Entities\VoiceProject.Data.Entities.csproj" />
+    <ProjectReference Include="..\VoiceProject.Domain.Models\VoiceProject.Domain.Models.csproj" />
+  </ItemGroup>
+
+</Project>
